@@ -5,18 +5,21 @@ namespace ConsoleApp3._3
     class Program
     {
         static void Main(string[] args)
+
+            enum DaysofWeek byte:
         {
-            string MyName = "Andrey";
-            byte MyAge = 15;
-            bool HaveIPet = false;
-            double MyShoeSize = 42.7;
+                Monday = 1,
+                Tuesday,
+                Wednesday,
+                Thursday,
+                Friday,
+                Saturday,
+                Sunday
 
-         Console.WriteLine("My name is" + MyName);
-         Console.WriteLine("My age is " + MyAge);
-         Console.WriteLine("Do I have pet?" + HaveIPet);
-         Console.WriteLine("My shoe size is" + MyShoeSize);
+            DaysOfWeek MyFavoriteDay;
+            MyFavoriteDay = DaysofWeek.Friday;
 
-         Console.ReadKey();
+            Console.WriteLine = (MyFavoriteDay);
         }
     }
 }
